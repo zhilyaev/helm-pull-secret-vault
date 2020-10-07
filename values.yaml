@@ -1,0 +1,11 @@
+# Default values for pull-secret-vault.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+secretName: gitlab-registry
+
+path: secret/gitlab-registry
+
+dockerCfgConfiguration:
+  type: "KEYVALUEV2"
+  # version: 1

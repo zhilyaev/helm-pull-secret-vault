@@ -1,0 +1,23 @@
+apiVersion: v2
+name: pull-secret-vault
+icon: https://cdn.worldvectorlogo.com/logos/vault-enterprise.svg
+description: ImagePullSecrets via Vault-CRD
+
+version: 0.3.0
+
+keywords:
+  - authentication
+  - secrets
+  - docker-registry
+  - imagepullsecrets
+  - vault
+
+maintainers:
+  - name: Dmitriy Zhilyaev
+    email: zhilyaev.dmitriy@gmail.com
+    url: https://zhilyaev.github.io
+
+home: https://github.com/zhilyaev/helm-pull-secret-vault
+sources:
+  - https://github.com/zhilyaev/helm-pull-secret-vault
+  - https://vault.koudingspawn.de/supported-secret-types/secret-type-dockercfg

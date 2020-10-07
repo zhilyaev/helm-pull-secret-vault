@@ -1,0 +1,8 @@
+1. Get the secret by running these commands:
+
+$ k get -n {{ .Release.Namespace }} secrets {{ .Values.secretName }} -o jsonpath='{.data.\.dockercfg}' | base64 -d
+
+2. Your deployments:
+
+  imagePullSecrets:
+    - name: {{ .Values.secretName }}
