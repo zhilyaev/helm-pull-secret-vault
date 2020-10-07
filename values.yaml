@@ -2,10 +2,13 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+# -- Secret name
 secretName: gitlab-registry
 
+# -- vault path
 path: secret/gitlab-registry
 
 dockerCfgConfiguration:
+  # -- vault kv2
   type: "KEYVALUEV2"
   # version: 1
